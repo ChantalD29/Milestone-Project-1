@@ -8,8 +8,8 @@
 
 body{
     font-family: Lato, sans-serif;
-    font-weight: 300;
-    color: #3a3a3a;
+    font-weight: 800;
+    color: #fff;
 }
 
 /* headings and logo */
@@ -18,12 +18,12 @@ h1, h2 {
     font-family: Italiana, sans-serif;
     text-transform: capitalize;
     letter-spacing: 8px;
-    color: #a8c082;
+    color: #fff;
 }
 
 #logo {
     float: left;
-    font-size: 280%;
+    font-size: 380%;
 }
 
 /* navigation links */
@@ -54,4 +54,55 @@ h1, h2 {
 
 .active {
     border-bottom: #a8c082 solid 2px;
+}
+
+header #logo {
+    width: 150px;
+}
+
+/* homepage video and text */
+
+.back-video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+@media (min-aspect-ratio: 16/9){
+    .back-video{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio: 16/9){
+    .back-video{
+        width: auto;
+        height: 100%;
+    }
+}
+
+#cover-text, #cover-text h2 {
+    color: #fff;
+}
+
+#cover-text {
+    font-size: 130%;
+    font-family: Oswald, sans-serif;
+
+    width: 400px;
+    height: 150px;
+
+    padding-top: 30px;
+    padding-left: 50px;
+
+    background-color: rgba(168, 192, 130, .7);
+
+    bottom: 30px;
+    right: 150px;
+    position: absolute;
+
+    border-radius: 5%;
+    text-align:center;
 }
