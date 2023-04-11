@@ -9,7 +9,7 @@
 body{
     font-family: Lato, sans-serif;
     font-weight: 800;
-    color: #fff;
+    color: #a8c082;
 }
 
 /* headings and logo */
@@ -18,7 +18,7 @@ h1, h2 {
     font-family: Italiana, sans-serif;
     text-transform: capitalize;
     letter-spacing: 8px;
-    color: #fff;
+    color: #a8c082;
 }
 
 #logo {
@@ -63,7 +63,7 @@ header #logo {
 /* homepage video and text */
 
 .back-video {
-    position: absolute;
+    position: relative;
     right: 0;
     bottom: 0;
     z-index: -1;
@@ -105,4 +105,10 @@ header #logo {
 
     border-radius: 5%;
     text-align:center;
+}
+
+/* introduction */
+
+#introduction {
+    height: 600px;
 }
