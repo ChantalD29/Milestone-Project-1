@@ -141,10 +141,11 @@ header #logo {
     text-transform: uppercase;
     font-size: 30px;
     text-align: center;
+    margin-top: 20px;
 }
 
 .content-section .content h3 {
-    margin-top: 30px;
+    margin-top: 50px;
     color: #a8c082;
     font-size: 20px;
     text-align: center;
@@ -152,16 +153,19 @@ header #logo {
 
 }
 .content-section .content p {
-    margin-top: 30px;
+    margin-top: 50px;
     color: #a8c082;
     font-size: 20px;
     text-align: center;
     line-height: 1.5;
+    margin-bottom: 120px;
 }
 
 .content-section .content .button {
-    margin-top: 70px;
+    margin-bottom: 50px;
     text-align: center;
+    margin-left: 80px;
+    display: inline;
 }
 
 .content-section .content .button a {
@@ -207,6 +211,26 @@ header #logo {
 }
 
 #pillars h3 {
-    margin-top: 20px;
-    
+    margin-top: 20px;   
+}
+
+/* footer */
+
+footer {
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #a8c082;
 }
