@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Merienda:wght@300&family=Lato:wght@300&display=swap');
 
 * {
     margin:0;
@@ -85,11 +85,11 @@ header #logo {
 
 #cover-text, #cover-text h2 {
     color: #fff;
+    font-family: Merienda, sans-serif
 }
 
 #cover-text {
-    font-size: 130%;
-    font-family: Oswald, sans-serif;
+    font-size: 100%;
 
     width: 400px;
     height: 150px;
@@ -103,8 +103,8 @@ header #logo {
     right: 150px;
     position: absolute;
 
-    border-radius: 5%;
-    text-align:center;
+    border-radius: 50px;
+    text-align: center;
 }
 
 /* introduction */
@@ -135,6 +135,7 @@ header #logo {
 .image-section img {
     width: 100%;
     height: auto;
+    border-radius: 35px;
 }
 
 .content-section .title {
@@ -176,6 +177,7 @@ header #logo {
     font-size: 25px;
     letter-spacing: 1.5px;
     font-family: Italiana, sans-serif;
+    border-radius: 30px;
 }
 
 .content-section .content .button a:hover {
@@ -196,7 +198,7 @@ header #logo {
 
 #pillars div {
     color: #fff;
-    background-color: rgba (0, 0, 0, .6);
+    background-color: rgba (0, 0, 0, 0.8);
     width: 20%;
     height: 300px;
     float: left;
