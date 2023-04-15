@@ -393,6 +393,17 @@ hr {
     bottom: 25px;
 }
 
+.techniques-container {
+    margin-left: 20%;
+    margin-top: 10px;
+    max-width: 900px;
+    text-align: justify;
+}
+
+.techniques-content {
+    margin-top: 10px;
+}
+
 /* signup form */
 
 .form-section{
