@@ -20,13 +20,13 @@
         <nav>
             <ul id="menu">
                 <li>
-                    <a href="signup.html">Join us</a>
+                    <a href="signup.html" class="active">Join us</a>
                 </li>
                 <li>
                     <a href="benefits.html">Benefits</a>
                 </li>
                 <li>
-                    <a href="techniques.html" class="active">Techniques</a>
+                    <a href="techniques.html">Techniques</a>
                 </li>
                 <li>
                     <a href="index.html">Home</a>
@@ -34,16 +34,35 @@
             </ul>
         </nav>
     </header>
-    <div class="container-gallery"> 
-        <div class="gallery">
-            <div class="img-box"><h3>Breathing</h3></div>
-            <div class="img-box"><h3>Muscle relaxation</h3></div>
-            <div class="img-box"><h3>Walking</h3></div>
-            <div class="img-box"><h3>Journaling</h3></div>
-            <div class="img-box"><h3>Body scan</h3></div>
-            <div class="img-box"><h3>Meditation</h3></div>
+    <section class="form-section">
+    <form action="https://formdump.codeinstitute.net/" method="post" class="signup-form">
+        <h2>Join us!</h2>
+        <div class="form-content">
+            <div class="input-box"> 
+                <label for="fname">First name</label>
+                <input id="fname" type="text" name="first_name" required class="text-input">
+            </div>
+            <div class="input-box"> 
+                <label for="lname">Last name</label>
+                <input id="lname" type="text" name="last_name" required class="text-input">
+            </div>
+            <div class="input-box"> 
+                <label for="email">Your email</label>
+                <input id="email" type="email" name="email_address" required class="text-input">
+            </div>
+            <span class="gender-title">Gender</span>
+            <div class="gender-category">
+                <input type="radio" name="gender" id="male">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="female">
+                <label for="female">Female</label>
+                <input type="radio" name="gender" id="other">
+                <label for="other">Other</label>
+                <input type="submit" value="Join" class="join-button">
+            </div>
         </div>
-    </div>
+    </form>
+    </section>
     <footer>
         <ul class="social-networks">
             <li>
