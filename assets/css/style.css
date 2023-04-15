@@ -404,18 +404,20 @@ hr {
 }
 
 .signup-form {
-    margin: 150px 10% 0 0;
+    margin: 150px 0 0 0;
     color: #fff;
     background-color: rgba(168, 192, 130, 0.6);
     max-width: 400px;
     position: absolute;
-    left: 10%;
-    padding: 30px;
+    left: 35%;
+    padding: 50px;
+    border-radius: 20px;
 }
 
 .signup-form > h2 {
     color: #fff;
     margin-bottom: 20px;
+    font-size: 30px;
 }
 
 .text-input {
@@ -446,7 +448,7 @@ hr {
     align-content: center;
     background-color: #fff;
     color: #a8c082;
-    font-size: 100%;
+    font-size: 110%;
     text-align: center;
     display: block;
 }
