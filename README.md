@@ -53,11 +53,26 @@ Mindfully is a 4 page website with each having its own navigation link at the to
 ## User Stories
 
 ## Design 
+### Colour Palette
 When I started thinking about the design of the website, I immediately pictured it would have some green in it as this colour conveys peace and calm. I later had the chance to read that some psychological studies have proved green to be soothing, with antidepressant properties: my choice was made. I chose images with warm colors to match the calming/soothing styles.
 The shade of green chosen in particolar is HEX #A8C082 (RGB	168	192	130). 
 The navbar and header are styled accordingly, as well as all the buttons. I chose the color #a8c082 while designing the logo on Canva, that I later imported to be displayed in the header across all webpages.
 
 COLOR IMG 
+
+### Typography
+
+Italiana and Oswald from Google Fonts
+
+IMG here
+
+## Wireframes
+The design of this website was first conceived using wireframes in Balsamiq. This helped me follow my original idea throughout the developing process. While some slight differences might be noticed between the wireframes here below and the final product, the basic structure and featured have been kept in mind during the process and are more or less the same as the original idea. 
+
+Wireframes IMGS here
+
+## Accessibility 
+
 
 # Technologies Used
 ## Languages Used
@@ -94,9 +109,13 @@ The steps are the following:
 
 # Credits
 ## Content
+- https://www2.hse.ie/mental-health/self-help/activities/mindfulness/
+- https://www.mindful.org/meditation/mindfulness-getting-started/
+- https://www.mayoclinic.org/healthy-lifestyle/consumer-health/in-depth/mindfulness-exercises/art-20046356
+- https://www.aware.ie/information/mindfulness/ 
 
 ## Media
-Images and videos taken from pexel free for usage with no copyright. I would like to acknowledge Taryn Elliott‘s work in particular for putting amazing free content out there that matched perfectly with my website’s idea.
+Images and videos taken from pexel free for usage with no copyright. I would like to acknowledge the following creators for releasing amazing free content that matched perfectly my website’s idea.
 - Taryn Elliott https://www.pexels.com/@taryn-elliott/
 All images and videos here 
 - https://www.pexels.com/photo/faceless-woman-reading-book-on-comfortable-bed-at-home-6588939/
@@ -105,6 +124,10 @@ All images and videos here
 - w3schools https://www.w3schools.com/tags/tag_span.asp 
 - GitHub Docs https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
 - kera-cudmore/readme-examples https://github.com/kera-cudmore/readme-examples
+For Readme files:
+- https://www.youtube.com/watch?v=E6NO0rgFub4 
+- https://www.youtube.com/watch?v=Ljj1wGFJqPY 
+- https://www.youtube.com/watch?v=XbYJ4VlhSnY 
 
 ## Acknowledgements
 I would like to acknowledge and thank my mentor for his support and guidance from the beginning of the course and for his precious advices for my project.
