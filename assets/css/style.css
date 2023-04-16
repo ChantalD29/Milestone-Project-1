@@ -468,3 +468,11 @@ hr {
     background-color: #a8c082;
     color: #fff;
 }
+
+.gender-category {
+    font-weight: bold;
+}
+
+.form-checkbox {
+    margin-top: 10px;
+}
