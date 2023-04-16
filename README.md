@@ -1,4 +1,4 @@
-!Mindfully and logo
+! [Minfully logo](/assets/images/Logo-green.png) Mindfully
 
 Link to live website here XX
 
@@ -37,6 +37,7 @@ There is also a page where users can sign up and subscribe to the newsletter or 
 # Project Overview
 ## Structure
 Mindfully is a 4 page website with each having its own navigation link at the top of the page. The Home page is the default loading page. The user can easily navigate to other pages via the navigation links and buttons on all device types as it is a fully responsive website.
+
 
 ## Existing Features
 
