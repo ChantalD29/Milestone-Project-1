@@ -75,7 +75,7 @@ Wireframes IMGS here
 
 # Technologies Used
 ## Languages Used
-HTML and CSS
+HTML and CSS were used to develop this website.
 
 ## Programs and Websites Used
 - Balsamiq - To create wireframes

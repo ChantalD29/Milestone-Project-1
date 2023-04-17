@@ -482,3 +482,15 @@ hr {
 .form-checkbox {
     margin-top: 10px;
 }
+
+/* plans */
+
+.row {
+    display: flex;
+    align-items: center;
+    height: 80%;
+}
+
+.col {
+    flex-basis: 50%;
+}
