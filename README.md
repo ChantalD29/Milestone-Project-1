@@ -1,4 +1,4 @@
-! [Minfully logo](/assets/images/Logo-green.png) Mindfully
+![Alt text](/assets/images/Mindfully-logo-tiny.png)
 
 Link to live website here XX
 
@@ -92,6 +92,8 @@ HTML and CSS
 
 # Testing
 ## Known Bugs/Issues
+- Benefits page
+![Alt image](/assets/images/Bug-1.png)
 ## Resolved Bugs
 
 # Deployment
