@@ -3,31 +3,30 @@
 Link to live website here XX
 
 ## Table of contents
-- Introduction
-- Project Overview
-    - Structure
-    - Existing Features
-    - Future Implementations
-- User Experience (UX)
-    - User Stories
-    - Design
-        - Colour scheme
-        - Typography
-    - Wireframes
-    - Accessibility
- - Technologies Used
-	- Languages Used
-	- Programs and Websites Used
- - Testing
-	- Known Bugs/Issues
-    - Resolved Bugs
- - Deployment
- - Programs Used
- - Credits
-	 - Content
-	 - Media
-     - Reference Material
-	 - Acknowledgements
+- [Introduction](#introduction)
+- [Project Overview](#project-overview)
+    - [Structure](#structure)
+    - [Existing Features](#existing-features)
+    - [Future Implementations](#future-implementations)
+- [User Experience (UX)](#user-experience-ux)
+    - [User Stories](#user-stories)
+    -[Design](#design)
+        - [Colour palette](#colour-palette)
+        - [Typography](#typography)
+    - [Wireframes](#wireframes)
+    - [Accessibility](#accessibility)
+ - [Technologies Used](#technologies-used)
+	- [Languages Used](#languages-used)
+	- [Programs and Websites Used](#programs-and-websites-used)
+ - [Testing](#testing)
+	- [Known Bugs/Issues](#known-bugsissues)
+    - [Resolved Bugs](#resolved-bugs)
+ - [Deployment](#deployment)
+ - [Credits](#credits)
+	 - [Content](#content)
+	 - [Media](#media)
+     - [Reference Material](#reference-material)
+	 - [Acknowledgements](#acknowledgements)
 
 # Introduction
 For my first portfolio project I wanted to develop a website for users to find out more about Mindfulness. The main goal is to inform users about the techniques, explain what the benefits of Mindfulness are and provide examples of these.  
@@ -79,13 +78,21 @@ Wireframes IMGS here
 HTML and CSS
 
 ## Programs and Websites Used
-- Balsamiq - Used to create wireframes.
-- Google Fonts - To import the fonts used on the website.
-- Font Awesome - For the iconography on the website.
-- Google Dev Tools - To troubleshoot and test features, and solve issues with responsiveness and styling.
+- Balsamiq - To create wireframes
+- Google Fonts - To import the fonts used on the website
+- Font Awesome - For the iconography on the website
+- Google Dev Tools - To troubleshoot and test features, and solve issues with responsiveness and styling
+- Git - For version control
+- GitPod - To write, edit and save code
+- GitHub - To save and store files for the website
+- Font Awesome - To add icons
+- Google Fonts - To import fonts
+- Canva - To create the website logo
 
 
 # Testing
+## Known Bugs/Issues
+## Resolved Bugs
 
 # Deployment
 To deploy the live website GitHub Pages was used.
@@ -96,16 +103,6 @@ The steps are the following:
 4. Click on the Pages link
 5. In the Sources section > chose "main" from the dropdown select branch menu > select "root" from the dropdown select folder menu
 6. Click save and your live website will be now deployed at the URL indicated. 
-
-
-# Programs Used
-- Balsamiq - To create wireframes
-- Git - For version control
-- GitPod - To write, edit and save code
-- GitHub - To save and store files for the website
-- Font Awesome - To add icons
-- Google Fonts - To import fonts
-- Canva - To create the website logo
 
 # Credits
 ## Content
