@@ -1,4 +1,4 @@
-![Alt text](/assets/images/Mindfully-logo-tiny.png)
+![Alt text](/assets/images/Mindfully%20and%20logo.png)
 
 Link to live website here XX
 
@@ -88,6 +88,7 @@ HTML and CSS
 - Font Awesome - To add icons
 - Google Fonts - To import fonts
 - Canva - To create the website logo
+- Removebg - to remove images background
 
 
 # Testing
@@ -115,15 +116,27 @@ The steps are the following:
 
 ## Media
 Images and videos taken from pexel free for usage with no copyright. I would like to acknowledge the following creators for releasing amazing free content that matched perfectly my website’s idea.
-- Taryn Elliott https://www.pexels.com/@taryn-elliott/
-All images and videos here 
+- https://www.pexels.com/video/woman-doing-yoga-over-a-rock-7580229/
 - https://www.pexels.com/photo/faceless-woman-reading-book-on-comfortable-bed-at-home-6588939/
+- https://www.pexels.com/photo/woman-standing-on-cliff-287240/ 
+- https://www.pexels.com/photo/woman-relaxing-in-yoga-mat-3822647/
+- https://www.pexels.com/photo/photo-of-person-holding-cup-3363111/
+- https://www.pexels.com/photo/reflective-woman-meditating-in-lotus-pose-with-namaste-hands-4793357/
+- https://www.pexels.com/photo/woman-and-dog-walking-at-woods-1612847/
+- https://www.pexels.com/photo/photo-of-woman-laying-on-ground-3759659/
+- https://www.pexels.com/photo/smiling-ethnic-gardener-with-plant-on-sunny-day-6231870/
+- https://www.pexels.com/photo/flexible-sportswoman-doing-yoga-exercise-at-home-4498158/
+- https://www.pexels.com/photo/bed-of-white-petaled-flower-605494/
+- https://www.pexels.com/photo/faceless-woman-reading-book-on-comfortable-bed-at-home-6588939/
+- https://www.pexels.com/photo/unrecognizable-female-meditating-on-grass-in-highlands-on-sunny-day-5694121/
+- https://www.pexels.com/photo/photo-of-an-elderly-woman-meditating-8939951/
 
 ## Reference Material
 - w3schools https://www.w3schools.com/tags/tag_span.asp 
 - GitHub Docs https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
-- kera-cudmore/readme-examples https://github.com/kera-cudmore/readme-examples
-For Readme files:
+
+### Readme file
+Kera-cudmore/readme-examples https://github.com/kera-cudmore/readme-examples and video from Code Institue https://www.youtube.com/watch?v=XbYJ4VlhSnY&t=1639s 
 - https://www.youtube.com/watch?v=E6NO0rgFub4 
 - https://www.youtube.com/watch?v=Ljj1wGFJqPY 
 - https://www.youtube.com/watch?v=XbYJ4VlhSnY 
