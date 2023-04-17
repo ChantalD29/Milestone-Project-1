@@ -68,7 +68,16 @@ IMG here
 ## Wireframes
 The design of this website was first conceived using wireframes in Balsamiq. This helped me follow my original idea throughout the developing process. While some slight differences might be noticed between the wireframes here below and the final product, the basic structure and featured have been kept in mind during the process and are more or less the same as the original idea. 
 
-Wireframes IMGS here
+### Homepage
+![Wireframe-1](/assets/images/Wireframe-1.png)
+### Techniques page
+![Wireframe-2](/assets/images/Wireframe-2.png)
+### Benefits page
+![Wireframe-3](/assets/images/Wireframe-3.png)
+### Plans page
+![Wireframe-4](/assets/images/Wireframe-4.png)
+### Join us (form) page
+![Wireframe-5](/assets/images/Wireframe-5.png)
 
 ## Accessibility 
 
