@@ -94,8 +94,18 @@ HTML and CSS were used to develop this website.
 # Testing
 ## Known Bugs/Issues
 - Benefits page
-![Alt image](/assets/images/Bug-1.png)
+![bug-1](/assets/images/Bug-1.png)
+
+- Text not centered in form
+![bug-2](/assets/images/Bug-2.png)
+
+- Space before "Pillars" section
+![bug-3](/assets/images/Bug-3.png)
 ## Resolved Bugs
+- "Join us" remains underlined when not selected (in Plans page)
+![bug-4](/assets/images/bug-4.png)
+How it was fixed:
+Since the basic html structured was copied from the "Join us" page, I checked the menu bar code first. In effect, class="active" was still within the "Join us" tag instead of the actual page "Plans". Copied and pasted class="active" to "Plans" tag. 
 
 # Deployment
 To deploy the live website GitHub Pages was used.
