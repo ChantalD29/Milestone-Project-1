@@ -502,7 +502,7 @@ hr {
     transition: transform 0.5s;
     background-position: center;
     background-size: cover;
-    background-image: url(/assets/images/Membership-1.png)
+    background-image: url(assets/images/Membership-1.png)
 }
 
 .col {
@@ -512,19 +512,19 @@ hr {
 }
 
 .card1 {
-    background-image: url(/assets/images/Membership-1.png)
+    background-image: url(assets/images/Membership-1.png)
 }
 
 .card2 {
-    background-image: url(/assets/images/Membership-2.png)
+    background-image: url(assets/images/Membership-2.png)
 }
 
 .card3 {
-    background-image: url(/assets/images/Membership-3.png)
+    background-image: url(assets/images/Membership-3.png)
 }
 
 .card4 {
-    background-image: url(/assets/images/Membership-4.png)
+    background-image: url(assets/images/Membership-4.png)
 }
 
 .card:hover {
