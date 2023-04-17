@@ -126,6 +126,10 @@ header #logo {
     padding-top: 100px;
 }
 
+.content {
+    margin-bottom: 100px;
+}
+
 .content-section {
     float: left;
     width: 55%;
@@ -140,6 +144,7 @@ header #logo {
     width: 80%;
     height: 515px;
     border-radius: 35px;
+    margin: left 80px;
 }
 
 .content-section .title {
