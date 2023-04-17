@@ -433,6 +433,7 @@ hr {
     left: 35%;
     padding: 50px;
     border-radius: 20px;
+    text-align: center;
 }
 
 .signup-form > h2 {
