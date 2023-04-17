@@ -464,7 +464,7 @@ hr {
 }
 
 .join-button {
-    margin-top: 20px;
+    margin-top: 40px;
     border-radius: 20px;
     padding: 10px 30px 10px 30px;
     align-content: center;
@@ -472,7 +472,7 @@ hr {
     color: #a8c082;
     font-size: 110%;
     text-align: center;
-    display: block;
+    display: inline;
 }
 
 .join-button:hover {
