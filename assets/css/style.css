@@ -85,30 +85,34 @@ header #logo {
 
 #cover-text, #cover-text h2 {
     color: #fff;
+    text-align: center;
     font-family: Merienda, sans-serif
 }
 
 #cover-text {
     font-size: 100%;
 
-    width: 400px;
+    width: 360px;
     height: 150px;
 
     padding-top: 30px;
     padding-left: 50px;
+    padding-right: 30px;
 
     background-color: rgba(168, 192, 130, .7);
 
-    bottom: 30px;
-    right: 150px;
+    bottom: 6px;
+    right: 50px;
     position: absolute;
 
     border-radius: 50px;
-    text-align: center;
 }
 
 /* introduction */
 
+.introduction {
+    background-color: #fff;
+}
 .section {
     width: 100%;
     min-height: 100vh;
