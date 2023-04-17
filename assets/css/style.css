@@ -90,20 +90,16 @@ header #logo {
 }
 
 #cover-text {
-    font-size: 80%;
-    width: 360px;
+    font-size: 70%;
+    width: 330px;
     height: 110px;
-
     padding-top: 25px;
     padding-left: 45px;
     padding-right: 30px;
-
     background-color: rgba(168, 192, 130, .9);
-
     bottom: -230px;
     right: 100px;
     position: absolute;
-
     border-radius: 50px;
 }
 
