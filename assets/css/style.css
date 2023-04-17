@@ -90,19 +90,18 @@ header #logo {
 }
 
 #cover-text {
-    font-size: 100%;
+    font-size: 80%;
+    width: 36350px;
+    height: 110px;
 
-    width: 360px;
-    height: 150px;
-
-    padding-top: 30px;
-    padding-left: 50px;
+    padding-top: 25px;
+    padding-left: 45px;
     padding-right: 30px;
 
-    background-color: rgba(168, 192, 130, .7);
+    background-color: rgba(168, 192, 130, .9);
 
-    bottom: 6px;
-    right: 50px;
+    bottom: -230px;
+    right: 100px;
     position: absolute;
 
     border-radius: 50px;
