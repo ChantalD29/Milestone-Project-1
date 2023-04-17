@@ -29,13 +29,13 @@ Link to live website here XX
 	 - [Acknowledgements](#acknowledgements)
 
 # Introduction
-For my first portfolio project I wanted to develop a website for users to find out more about Mindfulness. The main goal is to inform users about the techniques, explain what the benefits of Mindfulness are and provide examples of these.  
+For my first portfolio project I wanted to develop a website where users can find out more about Mindfulness following Project Example Idea 3. The main goal is to inform users about the benefits of Mindfulness are and provide examples of techniques to practice Mindfulness in one's everyday life.  
 
 There is also a page where users can sign up and subscribe to the newsletter or decide to subscribe to a premium plan and get access to mindfulness content like guided meditations and other useful tips. 
 
 # Project Overview
 ## Structure
-Mindfully is a 4 page website with each having its own navigation link at the top of the page. The Home page is the default loading page. The user can easily navigate to other pages via the navigation links and buttons on all device types as it is a fully responsive website.
+Mindfully is a 4 page website with each having its own navigation link at the top of the page. The Home page is the default loading page. Users can easily navigate to other pages via the navigation links and buttons.
 
 
 ## Existing Features
@@ -50,7 +50,7 @@ Mindfully is a 4 page website with each having its own navigation link at the to
 
 # User Experience (UX)
 ## User Stories
-
+XX
 ## Design 
 ### Colour Palette
 When I started thinking about the design of the website, I immediately pictured it would have some green in it as this colour conveys peace and calm. I later had the chance to read that some psychological studies have proved green to be soothing, with antidepressant properties: my choice was made. I chose images with warm colors to match the calming/soothing styles.
