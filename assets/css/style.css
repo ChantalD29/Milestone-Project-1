@@ -509,6 +509,12 @@ hr {
     background-image: url(/assets/images/Membership-1.png)
 }
 
+.col {
+    margin-top: 200px;
+    position: absolute;
+    margin-left: 60px;
+}
+
 .card1 {
     background-image: url(/assets/images/Membership-1.png)
 }
