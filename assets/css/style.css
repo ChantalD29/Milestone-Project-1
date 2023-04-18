@@ -505,30 +505,53 @@ hr {
     background-image: url(assets/images/Membership-1.png)
 }
 
-.col {
-    margin-top: 200px;
+.cards {
+    margin-top: 400px;
     position: absolute;
+    display: inline;
     margin-left: 60px;
 }
 
 .card1 {
-    background-image: url(assets/images/Membership-1.png)
+    background-image: url(/assets/images/Membership-1.png)
 }
 
 .card2 {
-    background-image: url(assets/images/Membership-2.png)
+    background-image: url(/assets/images/Membership-2.png)
 }
 
 .card3 {
-    background-image: url(assets/images/Membership-3.png)
+    background-image: url(/assets/images/Membership-3.png)
 }
 
 .card4 {
-    background-image: url(assets/images/Membership-4.png)
+    background-image: url(/assets/images/Membership-4.png)
 }
 
 .card:hover {
     transform: translateY(-10px);
+}
+
+.cards-text {
+    font-size: 30px;
+    display: flex;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 500px;
+    background-color: #a8c082;
+    color: #fff;
+    width: 400px;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+
+.cards-text > h2 {
+    color: #fff;
+    text-transform: none;
+    text-align: center;
+    font-size: 80%;
+    margin-bottom: 20px;
+    margin-left: 20px;
 }
 
 /* thank-you */

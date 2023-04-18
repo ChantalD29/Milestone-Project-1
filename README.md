@@ -106,10 +106,13 @@ HTML and CSS were used to develop this website.
 ![bug-1](/assets/images/Bug-1.png)
 
 - Text not centered in form
-![bug-2](/assets/images/Bug-2.png)
+![bug-2](/assets/images/bug-button.png)
+Thanks to the Dev Tool I figured out the problem was display:block that had to be changed, for example, into display:inline.
+![bug-2-fixed](/assets/images/bug-button2.png)
 
 - Space before "Pillars" section
 ![bug-3](/assets/images/Bug-3.png)
+
 ## Resolved Bugs
 - "Join us" remains underlined when not selected (in Plans page)
 ![bug-4](/assets/images/bug-4.png)
