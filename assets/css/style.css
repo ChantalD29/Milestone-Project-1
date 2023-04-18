@@ -410,7 +410,12 @@ hr {
     text-align: justify;
 }
 
-.techniques-content {
+.techniques-container > h2 {
+margin-bottom: 15px;
+margin-top: 45px;
+}
+
+.techniques-text {
     margin-top: 10px;
 }
 
