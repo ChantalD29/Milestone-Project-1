@@ -522,15 +522,15 @@ margin-top: 45px;
 }
 
 .card2 {
-    background-image: url(../assets/images/Membership-2.png)
+    background-image: url(../images/Membership-2.png)
 }
 
 .card3 {
-    background-image: url(../assets/images/Membership-3.png)
+    background-image: url(../images/Membership-3.png)
 }
 
 .card4 {
-    background-image: url(../assets/images/Membership-4.png)
+    background-image: url(../images/Membership-4.png)
 }
 
 .card:hover {
