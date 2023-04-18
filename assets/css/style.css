@@ -566,12 +566,29 @@ hr {
 
 .thank-you-msg {
     text-align: center;
-    font-size: 70px;
+    font-size: 50px;
     margin-bottom: 20px;
-    margin-top: 20px;
+    margin-top: 100px;
 }
 
 .thank-you-text {
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
+    display: flex;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 500px;
+    background-color: #a8c082;
+    color: #fff;
+    width: 600px;
+    height: auto;
+    padding-top: 30px;
+    border-radius: 20px;
 }
+
+color: #fff;
+text-transform: none;
+text-align: center;
+font-size: 80%;
+margin-bottom: 20px;
+margin-left: 20px;
