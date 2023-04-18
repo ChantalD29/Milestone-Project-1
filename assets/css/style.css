@@ -404,7 +404,7 @@ hr {
     background-color: rgba(168, 192, 130, .9);
     border-radius: 30px;
     padding: 15px;
-    font-weight: 700;
+
 }
 
 .techniques-container {
@@ -575,9 +575,9 @@ margin-top: 45px;
 
 .thank-you-msg {
     text-align: center;
-    font-size: 50px;
-    margin-bottom: 20px;
+    font-size: 60px;
     margin-top: 100px;
+    padding-top: 100px;
 }
 
 .thank-you-text {
@@ -586,18 +586,11 @@ margin-top: 45px;
     display: flex;
     position: absolute;
     margin-top: 150px;
-    margin-left: 500px;
+    margin-left: 400px;
     background-color: #a8c082;
     color: #fff;
     width: 600px;
     height: auto;
-    padding-top: 30px;
-    border-radius: 20px;
+    padding: 30px;
+    border-radius: 30px;
 }
-
-color: #fff;
-text-transform: none;
-text-align: center;
-font-size: 80%;
-margin-bottom: 20px;
-margin-left: 20px;
