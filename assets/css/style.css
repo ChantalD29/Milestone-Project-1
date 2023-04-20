@@ -127,7 +127,7 @@ header #logo {
 
 .content-section {
     float: left;
-    width: 55%;
+    width: 80%;
 }
 
 .image-section {
@@ -202,7 +202,7 @@ header #logo {
 
 #pillars div {
     color: #fff;
-    background-color: rgb (0, 0, 0,);
+    background-color: rgba(0, 0, 0, 0.7);
     width: 20%;
     height: 300px;
     float: left;
@@ -672,7 +672,7 @@ margin-top: 45px;
         padding: 0;
     }
 
-    #left-about-heading, {
+    #left-about-heading {
         width: 100%;
         float: left;
         padding: 0;
@@ -787,5 +787,4 @@ margin-top: 45px;
         left:20%;
     }
 
-    .#welcome 
 }
