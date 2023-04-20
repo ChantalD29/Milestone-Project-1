@@ -600,6 +600,14 @@ margin-top: 45px;
 /* for larger to medium screen size from 1200px adn down */
 
 @media screen and (max-width:1200px){
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 30px;
+        line-height: 25px;
+    }
+
     .container-gallery {
         max-width: 1200px;
         width: 100%;
@@ -614,5 +622,56 @@ margin-top: 45px;
     footer > h2{
         margin-left: 350px;
         font-size: 20px;
+    }
+
+    .back-video {
+        max-width: 1200px;
+        margin: 0 auto;
+        height:auto
+    }
+
+    .cover-text {
+        font-size: 60%;
+        width: 200px;
+        height: 110px;
+    }
+    .cover-text > h2 {
+        font-size: 60%;
+        width: 200px;
+    }
+
+    .content-section .content .button {
+        display: inline-flex;
+    }
+    
+    #pillars {
+        font-size: 100%;
+    }
+}
+
+/* For medium screen sizes from 950px wide and down */
+@media screen and (max-width: 950px) {
+    .back-video {
+        max-width: 950px;
+        margin: 0 auto;
+        height:auto
+    }
+
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 30px;
+        line-height: 25px;
+    }
+    
+}
+
+/* For small screen sizes below 800px width */
+@media screen and (max-width: 800px) {
+   
+    .back-video {
+        max-width: 800px;
+        width:100%;
     }
 }
