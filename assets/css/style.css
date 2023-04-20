@@ -672,9 +672,14 @@ margin-top: 45px;
         padding: 0;
     }
 
-    #left-about-heading, #right-about-heading{
+    #left-about-heading, {
         width: 100%;
         float: left;
+        padding: 0;
+    }
+
+    #right-about-heading {
+        width: 100%;
         padding: 0;
     }
 
@@ -729,8 +734,7 @@ margin-top: 45px;
     }
     
     .image-section img  {
-        text-align: center;
-        padding: 0 20px;
+        display: none;
     }
 
     .left-about-heading, .right-about-heading {
