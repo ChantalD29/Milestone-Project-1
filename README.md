@@ -1,6 +1,6 @@
 ![Alt text](/assets/images/Mindfully%20and%20logo.png)
 
-Link to live website here XX
+Link to live website here https://chantald29.github.io/Mindfully-MilestoneProject-1/benefits.html
 
 ## Table of contents
 - [Introduction](#introduction)
@@ -104,6 +104,8 @@ HTML and CSS were used to develop this website.
 ## Known Bugs/Issues
 - Benefits page
 ![bug-1](/assets/images/Bug-1.png)
+How it was fixed:
+The issue here was in the header, since it had no height value and it ended up encroaching the h2. That's why the two overlapped. By targeting the header and adding some volume, I was then able to center the h2 as wished.
 
 - Space before "Pillars" section
 ![bug-3](/assets/images/Bug-3.png)
@@ -166,4 +168,4 @@ Kera-cudmore/readme-examples https://github.com/kera-cudmore/readme-examples and
 - https://www.youtube.com/watch?v=XbYJ4VlhSnY 
 
 ## Acknowledgements
-I would like to acknowledge and thank my mentor for his support and guidance from the beginning of the course and for his precious advices for my project.
+I would like to acknowledge and thank my mentor for his support and guidance from the beginning of the course and for his precious advices for my project. I would also like to thank the tutors at Code Institute for providing specific tips to fix bugs when needed. 
