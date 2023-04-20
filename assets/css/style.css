@@ -755,4 +755,8 @@ margin-top: 45px;
         width: 1200px;
         height: 1600px;
     }
+
+    .signup-form {
+        left:20%;
+    }
 }
