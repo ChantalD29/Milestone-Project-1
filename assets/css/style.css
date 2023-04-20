@@ -652,14 +652,27 @@ margin-top: 45px;
         color: #a8c082;
     }
 
-    /* tehniques page*/
+    /* techniques page*/
     .techniques-container {
         width: 75%;
         margin: 0 auto;
     }
 
     /* benefits page */
+   
+    #benefits {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
     #left-about, #right-about {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    #left-about-heading, #right-about-heading{
         width: 100%;
         float: left;
         padding: 0;
@@ -670,10 +683,16 @@ margin-top: 45px;
         width: 100%;
         float: left;
         padding: 0;
+        margin-bottom: 50px;
     }
 
     hr {
         display: none;
+    }
+
+    #welcome {
+    margin-top: 150px;
+    font-size: 200%;
     }
     
     /*plans page*/
@@ -759,4 +778,6 @@ margin-top: 45px;
     .signup-form {
         left:20%;
     }
+
+    .#welcome 
 }
