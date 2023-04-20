@@ -643,9 +643,18 @@ margin-top: 45px;
         display: inline-flex;
     }
     
-    #pillars {
-        font-size: 100%;
+    #pillars > div {
+        width: 100%;
+        clear: both;
+        height: 150px;
+        padding: 0;
+        color: #a8c082;
     }
+
+    #pillars > div > h2 {
+        color: #a8c082;
+    }
+
      /* benefits page */
     #left-about, #right-about {
         width: 100%;
