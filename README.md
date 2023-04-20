@@ -38,7 +38,13 @@ Mindfully is a 4 page website with each having its own navigation link at the to
 
 
 ## Existing Features
-
+- Header
+- Introduction section
+- Pillars section
+- Techniques page
+- Benefits page
+- Signup (form)
+- Plans page
 
 ## Future Implementations
 - Add a new page for a test/challenge (as a form, with radios or checkboxes) to spark curiosity in the users and invite them to integrate mindfulness tips in their lifestyle.
