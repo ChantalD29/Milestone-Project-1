@@ -1,6 +1,6 @@
 ![Alt text](/assets/images/Mindfully%20and%20logo.png)
 
-Link to live website here https://chantald29.github.io/Mindfully-MilestoneProject-1/benefits.html
+Link to live website here https://chantald29.github.io/Mindfully-MilestoneProject-1/index.html
 
 ## Table of contents
 - [Introduction](#introduction)
