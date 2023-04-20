@@ -594,3 +594,25 @@ margin-top: 45px;
     padding: 30px;
     border-radius: 30px;
 }
+
+/* media queries */
+
+/* for larger to medium screen size from 1200px adn down */
+
+@media screen and (max-width:1200px){
+    .container-gallery {
+        max-width: 1200px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .techniques-container {
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    footer > h2{
+        margin-left: 350px;
+        font-size: 20px;
+    }
+}
