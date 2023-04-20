@@ -48,8 +48,31 @@ Mindfully is a 4 page website with each having its own navigation link at the to
 
 
 # User Experience (UX)
+# User Experience (UX)
+Key information about the site for users: 
+* What is Mindfulness?
+* What are the benefits?
+* Techniques and practice overview.
+* Premium plans available to start practice it with Mindfully.
+* Newsletter signup to keep posted about Mindfully. 
+
+As a user, I want to:
+* Find out about mindfulness
+* Know the basics of mind techniques
+* Be able to subscribe to a premium plan, or the newsletter 
+
+As a developer, I want the site to:
+* Be displayed clearly on different devices
+* Be estetically appealing to spark interest in the user
+* Be easy to navigate and provide helpful information
+* Encourage users to subscribe to the free trial and eventually subscribe to a premium plan
+
+
 ## User Stories
-XX
+- **Mark** is new to mindfulness. After a difficult period and some health issues, he has finally recovered and his doctor suggested he give mindfulness a try to live a helthier and less rushed lifestyle. His daugthers google the keyword "mindfulness" and "health" and run into Mindfully, where they can all find usedul information and start the free trial period.
+- **Hillary** had practiced yoga and pilates almost everyday for a couple of years a while ago. Her life became a lot busier over the past few years...she regrets not practicing yoga or pilates anymore, and she's willing to take on a new challenge: she wants to be more mindful of her habits and decides to learn more about mindfulness.
+- **Chris**  has always been into mindfulness and meditation: it is just the perfect way to manage her anxiety. He is used to reading about mindfulness and watching useful content on YouTube from his favorite channels. He is now browsing for free trials over the internet and decide on which service to subscribe. 
+
 ## Design 
 ### Colour Palette
 When I started thinking about the design of the website, I immediately pictured it would have some green in it as this colour conveys peace and calm. I later had the chance to read that some psychological studies have proved green to be soothing, with antidepressant properties: my choice was made. I chose images with warm colors to match the calming/soothing styles.
