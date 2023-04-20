@@ -229,7 +229,7 @@ footer {
 footer > h2 {
     
     margin-top: 100px;
-    margin-left: 500px;
+    text-align: center;
 }
 
 .social-networks {
@@ -254,7 +254,8 @@ footer > h2 {
 }
 
 #welcome {
-    text-align: end;
+    text-align: center;
+    margin-top: 50px;
     margin-bottom: 50px;
     font-size: 280%;
 }
@@ -676,12 +677,26 @@ margin-top: 45px;
         clear: left;
         float: left;
         margin-left: 30px;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
         line-height: 25px;
     }
     
     .home-img {
         width: 44%;
+    }
+
+    .left-about-heading, .right-about-heading {
+        width: inherit;
+    }
+
+    .left-about-heading h2, .right-about-heading h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .left-about-heading p, .right-about-heading p {
+        text-align: center;
+        padding: 0 20px;
     }
 }
 
@@ -691,5 +706,9 @@ margin-top: 45px;
     .back-video {
         max-width: 800px;
         width:100%;
+    }
+
+    #photos {
+        column-count: 2;
     }
 }
