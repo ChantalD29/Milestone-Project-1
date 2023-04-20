@@ -19,8 +19,7 @@ Link to live website here https://chantald29.github.io/Mindfully-MilestoneProjec
 	- [Languages Used](#languages-used)
 	- [Programs and Websites Used](#programs-and-websites-used)
  - [Testing](#testing)
-	- [Known Bugs/Issues](#known-bugsissues)
-    - [Resolved Bugs](#resolved-bugs)
+    - [Bugs](#bugs)
  - [Deployment](#deployment)
  - [Credits](#credits)
 	 - [Content](#content)
@@ -101,16 +100,12 @@ HTML and CSS were used to develop this website.
 
 
 # Testing
-## Known Bugs/Issues
+##  Bugs
 - Benefits page
 ![bug-1](/assets/images/Bug-1.png)
 How it was fixed:
 The issue here was in the header, since it had no height value and it ended up encroaching the h2. That's why the two overlapped. By targeting the header and adding some volume, I was then able to center the h2 as wished.
 
-- Space before "Pillars" section
-![bug-3](/assets/images/Bug-3.png)
-
-## Resolved Bugs
 - "Join us" remains underlined when not selected (in Plans page)
 ![bug-4](/assets/images/bug-4.png)
 How it was fixed:
