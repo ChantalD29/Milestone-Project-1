@@ -609,9 +609,9 @@ margin-top: 45px;
 
 /* media queries */
 
-/* for larger to medium screen size from 1200px adn down */
+/* for larger to medium screen size from 1250px adn down */
 
-@media screen and (max-width:1200px){
+@media screen and (max-width:1250px){
     #menu {
         clear: left;
         float: left;
@@ -640,27 +640,21 @@ margin-top: 45px;
         display: none;
     }
 
-    .image-section img  {
-        width: 100%;
-        height: 450px;
-        margin-left: 30px;
-        margin-top: 160px;
+    .content-section .content .button {
+        margin-left: -60px;
     }
 
     .content-section .content .button {
-        display: inline-flex;
+        display: revert;
+        margin-left:-30px;
     }
+
     
     #pillars > div {
         width: 100%;
         clear: both;
         height: 150px;
         padding: 0;
-        color: #627D2B;
-    }
-
-    #pillars > div > h2 {
-        color: #627D2B;
     }
 
     /* techniques page*/
@@ -677,10 +671,17 @@ margin-top: 45px;
         margin: 0 auto;
     }
 
-    #left-about, #right-about {
+    #left-about {
         width: 100%;
         float: left;
         padding: 0;
+    }
+
+    #right-about{
+        width: 100%;
+        float: right;
+        padding: 0;
+        color: #627D2B;
     }
 
     #left-about-heading {
@@ -770,7 +771,13 @@ margin-top: 45px;
         margin-left: 0
     }
 
+    .cards-text {
+        margin-top: 80px;
+    }
     
+    .card {
+        width: 250px;
+        height: 200px;
 }
 
 /* For small screen sizes below 800px width */
