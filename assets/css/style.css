@@ -660,7 +660,7 @@ margin-top: 45px;
 
     .content-section .content .button {
         display: revert;
-        margin-left:-30px;
+        margin-left:0;
     }
 
     
@@ -756,10 +756,12 @@ margin-top: 45px;
     }
     .content-section .title {
         margin-left: -200px;
+        font-size: 120%;
     }
 
     .content {
-        margin-left: 0;
+        margin-left: 0px;
+        margin-right: -50px;
     }
 
     .gallery {
@@ -824,8 +826,13 @@ margin-top: 45px;
         max-width: 60px;
     }
 
+    .content-section .title {
+        margin-left: -200px;
+        font-size: 120%;
+    } 
+
     #logo-text {
-        font-size: 60px;
+        font-size: 80%;
     }
 
     #photos {
