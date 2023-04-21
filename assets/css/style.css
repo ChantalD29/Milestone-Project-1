@@ -298,7 +298,7 @@ hr {
 }
 
 .left-about-heading {
-    width: 65%;
+    width: 60%;
     float: right;
     line-height: 22px;
     clear: both;
@@ -680,26 +680,25 @@ margin-top: 45px;
     /* benefits page */
    
     #benefits {
-        width: 65%;
+        width: 60%;
         height: 1200px;
         margin: 0 auto;
     }
 
     #left-about {
-        width: 100%;
-        float: left;
+        width: 40%;
         padding: 0;
     }
 
     #right-about{
-        width: 100%;
+        width: 50%;
         float: right;
         padding: 0;
-        color: #627D2B;
     }
 
     #left-about-heading {
         width: 100%;
+        font-size: 80%;
         float: left;
         padding: 0;
     }
@@ -707,6 +706,9 @@ margin-top: 45px;
     #right-about-heading {
         width: 100%;
         padding: 0;
+    }
+    .right-about-heading h2 {
+        text-align: left; 
     }
 
     #center-about {
@@ -781,6 +783,16 @@ margin-top: 45px;
         width: 80%;
     }
 
+    #left-about {
+        width: 70%;
+        padding: 0;
+    }
+
+    #right-about{
+        width: 80%;
+        float: right;
+        padding: 0;
+    }
     .left-about-heading, .right-about-heading {
         width: inherit;
     }
@@ -788,8 +800,6 @@ margin-top: 45px;
     .right-about-heading >ul.no-bullets {
         float: right;
         list-style-type: none; /* Remove bullets */
-        padding: 0; /* Remove padding */
-        margin: 0; /* Remove margins */
       }
 
     .left-about-heading h2, .right-about-heading h2 {
@@ -844,17 +854,21 @@ margin-top: 45px;
     }
 
     .cards-text {
-        margin-left: 180px;
-        }
+    margin-left: 0;
+    font-size: 25px;
+    width: 300px;
+    margin-left: 40px;
+    }
 
     #circle-container {
         width: 200px;
         height: 200px;
     }
 
+    /*form background*/
     .form-section {
-        width: 1200px;
-        height: 1600px;
+        width: 800px;
+        height: 800px;
     }
 
     .signup-form {
