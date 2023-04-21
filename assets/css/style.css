@@ -9,7 +9,7 @@
 body{
     font-family: Lato, sans-serif;
     font-weight: 800;
-    color: #a8c082;
+    color: #627D2B;
 }
 
 /* headings and logo */
@@ -18,7 +18,7 @@ h1, h2 {
     font-family: Italiana, sans-serif;
     text-transform: capitalize;
     letter-spacing: 8px;
-    color: #a8c082;
+    color: #627D2B;
 }
 
 #logo {
@@ -49,11 +49,11 @@ h1, h2 {
 }
 
 #menu a:hover {
-    border-bottom: #a8c082 solid 2px;
+    border-bottom: #627D2B solid 2px;
 }
 
 .active {
-    border-bottom: #a8c082 solid 2px;
+    border-bottom: #627D2B solid 2px;
 }
 
 header #logo {
@@ -152,7 +152,7 @@ header #logo {
 
 .content-section .content h3 {
     margin-top: 50px;
-    color: #a8c082;
+    color: #627D2B;
     font-size: 20px;
     text-align: center;
     line-height: 1.5;
@@ -160,7 +160,7 @@ header #logo {
 }
 .content-section .content p {
     margin-top: 50px;
-    color: #a8c082;
+    color: #627D2B;
     font-size: 20px;
     text-align: center;
     line-height: 1.5;
@@ -175,7 +175,7 @@ header #logo {
 }
 
 .content-section .content .button a {
-    background-color: #a8c082;
+    background-color: #627D2B;
     padding: 10px 40px;
     text-decoration: none;
     color: #fff;
@@ -187,7 +187,7 @@ header #logo {
 
 .content-section .content .button a:hover {
     background-color: #fff;
-    color: #a8c082;
+    color: #627D2B;
 }
 
 /* pillars */
@@ -245,7 +245,7 @@ footer > h2 {
     font-size: 160%;
     margin: 1%;
     padding: 5%;
-    color: #a8c082;
+    color: #627D2B;
 }
 
 /* benefits page */
@@ -279,7 +279,7 @@ footer > h2 {
 }
 
 hr {
-    border-top: 1px solid #a8c082;
+    border-top: 1px solid #627D2B;
     width: 100%;
     margin: 10px 0
 }
@@ -471,7 +471,7 @@ margin-top: 45px;
     margin: 20px 5px;
     border: 1px solid #fff;
     border-radius: 20px;
-    border-color: #a8c082;
+    border-color: #627D2B;
 }
 
 .join-button {
@@ -480,14 +480,14 @@ margin-top: 45px;
     padding: 10px 30px 10px 30px;
     align-content: center;
     background-color: #fff;
-    color: #a8c082;
+    color: #627D2B;
     font-size: 110%;
     text-align: center;
     display: inline;
 }
 
 .join-button:hover {
-    background-color: #a8c082;
+    background-color: #627D2B;
     color: #fff;
 }
 
@@ -549,7 +549,7 @@ margin-top: 45px;
     position: absolute;
     margin-top: 150px;
     margin-left: 500px;
-    background-color: #a8c082;
+    background-color: #627D2B;
     color: #fff;
     width: 400px;
     padding-top: 20px;
@@ -589,7 +589,7 @@ margin-top: 45px;
     position: absolute;
     margin-top: 150px;
     margin-left: 400px;
-    background-color: #a8c082;
+    background-color: #627D2B;
     color: #fff;
     width: 600px;
     height: auto;
@@ -646,11 +646,11 @@ margin-top: 45px;
         clear: both;
         height: 150px;
         padding: 0;
-        color: #a8c082;
+        color: #627D2B;
     }
 
     #pillars > div > h2 {
-        color: #a8c082;
+        color: #627D2B;
     }
 
     /* techniques page*/
