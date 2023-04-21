@@ -21,6 +21,9 @@ h1, h2 {
     color: #627D2B;
 }
 
+h1 {
+    margin-left: 250px;
+}
 #logo {
     float: left;
     font-size: 380%;
