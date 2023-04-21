@@ -199,4 +199,4 @@ Kera-cudmore/readme-examples https://github.com/kera-cudmore/readme-examples and
 - https://www.youtube.com/watch?v=XbYJ4VlhSnY 
 
 ## Acknowledgements
-I would like to acknowledge and thank my mentor Graeme Taylor for his support and guidance from the beginning of the course and for his precious advices for my project. I would also like to thank the tutors at Code Institute for providing specific tips to fix bugs when needed. 
+I would like to acknowledge and thank my mentor Graeme Taylor for his support and guidance from the beginning of the course and for his precious advices for my project. I would also like to thank the tutors at the Code Institute for providing specific tips to fix bugs when needed, thanks to Joshua and Joanne fo that. 
