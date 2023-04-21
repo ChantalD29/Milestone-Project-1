@@ -778,11 +778,11 @@ margin-top: 45px;
     .card {
         width: 250px;
         height: 200px;
+
 }
 
 /* For small screen sizes below 800px width */
 @media screen and (max-width: 800px) {
-   
     .back-video {
         max-width: 800px;
         width:100%;
@@ -805,4 +805,8 @@ margin-top: 45px;
         left:20%;
     }
 
+    /*form background*/
+    .form-section{
+        max-width: 800px;
+    }
 }
