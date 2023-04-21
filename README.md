@@ -158,7 +158,8 @@ Thanks to the Dev Tool I was able to identify the problem in display:block and c
 ![bug-viewport-iphone](/assets/images/bug-viewport-iphone.webp)
 When I checked the website on my iPhone (model 14 Pro, editing on DevTool with the iPhone 12 Pro preview) I realised these two pages wren't displayed like the others, but rather zoomed in or zoomed out. The user would then have to resize the page by pinching, which isn’t optimal. The tutor I consulted pointed me in the right direction advising it might be a **viewport** issue. 
 This was fixed by adding a meta tag in the head of those pages with content="initial-scale=0.5".
-This represents a quick solution for the issue, as the page is now completely displayed with no need to zoom and resize it. There is still one bug though, namely the navbar displaying differently if compared to all the other pages across the website (this only happens on screen sizes below 800px). In the future I would like to improve the responsive design on small screens: I tried my best to achieve an acceptable result, however since the deadline approached I realized I couldn’t polish it as wished. 
+
+This represented a quick solution for the above mentioned issue, as the page is now completely displayed with no need to zoom and resize it. However, there is still one bug, namely the menu bar displayed differently (smaller) when compared to all the other pages across the website (this only happens on screen sizes below 950px). In the future I would like to improve the responsive design on small screens: I tried my best to achieve an acceptable result, however since the deadline approached I realized I couldn’t polish it as wished. 
 
 ![bug-viewport2](/assets/images/bug-viewport2.webp)
 
