@@ -838,7 +838,8 @@ margin-top: 45px;
     /*form background*/
     .form-section{
         max-width: 950px;
-        background-size: 950px norepeat norepeat;
+        background-size: 950px;
+        background-repeat: no-repeat;
     }
 
     /*thank you page*/
@@ -897,7 +898,8 @@ margin-top: 45px;
 
     .form-section{
         max-width: 800px;
-        background-size: 800px norepeat norepeat;
+        background-size: 800px;
+        background-repeat: no-repeat;
     }
 
     /*thank you page*/
