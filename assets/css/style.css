@@ -739,6 +739,15 @@ margin-top: 45px;
         margin-left: 220px;
     }
 
+     /*thank you page*/
+     .thank-you-text {
+        font-size: 20px;
+        margin-top: 100px;
+        margin-left: 350px;
+        background-color: rgba(98, 125, 43, .9);
+        width: 400px;
+    }
+
 }
 
 /* For medium screen sizes from 950px wide and down */
@@ -783,6 +792,7 @@ margin-top: 45px;
         width: 80%;
     }
 
+    /* benefits page*/
     #left-about {
         width: 70%;
         padding: 0;
@@ -815,7 +825,7 @@ margin-top: 45px;
     footer > h2{
         margin-top: 300px
     }
-
+     /*plans page*/
     .cards-text {
         margin-top: 80px;
     }
@@ -829,6 +839,15 @@ margin-top: 45px;
     .form-section{
         max-width: 950px;
         background-size: 950px norepeat norepeat;
+    }
+
+    /*thank you page*/
+    .thank-you-text {
+        font-size: 20px;
+        margin-top: 100px;
+        margin-left: 220px;
+        background-color: rgba(98, 125, 43, .9);
+        width: 400px;
     }
 }
 
@@ -857,12 +876,12 @@ margin-top: 45px;
     margin-left: 0;
     font-size: 25px;
     width: 300px;
-    margin-left: 40px;
+    margin-left: 250px;
     }
 
     #circle-container {
-        width: 200px;
-        height: 200px;
+        width: 250px;
+        height: 220px;
     }
 
     /*form background*/
@@ -873,11 +892,20 @@ margin-top: 45px;
     }
 
     .signup-form {
-        left:25%;
+        left:28%;
     }
 
     .form-section{
         max-width: 800px;
         background-size: 800px norepeat norepeat;
+    }
+
+    /*thank you page*/
+    .thank-you-text {
+        font-size: 25px;
+        margin-top: 100px;
+        margin-left: 220px;
+        background-color: rgba(98, 125, 43, .9);
+        width: 300px;
     }
 }
