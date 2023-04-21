@@ -52,8 +52,6 @@ Mindfully is a 4 page website with each having its own navigation link at the to
 - Create another page for virtual events and meetups. 
 
 
-
-# User Experience (UX)
 # User Experience (UX)
 Key information about the site for users: 
 * What is Mindfulness?
@@ -81,31 +79,32 @@ As a developer, I want the site to:
 
 ## Design 
 ### Colour Palette
-When I started thinking about the design of the website, I immediately pictured it would have some green in it as this colour conveys peace and calm. I later had the chance to read that some psychological studies have proved green to be soothing, with antidepressant properties: my choice was made. I chose images with warm colors to match the calming/soothing styles.
-The shade of green chosen in particolar is HEX #A8C082 (RGB	168	192	130). 
-The navbar and header are styled accordingly, as well as all the buttons. I chose the color #a8c082 while designing the logo on Canva, that I later imported to be displayed in the header across all webpages.
+When I started thinking about the design of the website, I pictured it would have some green in it as this colour conveys peace and calm. I later read by chance that some psychological studies have proved green to be soothing, with antidepressant properties: my choice was made. I chose images with warm colors to match the calming mood of the website.
+The shade of green chosen in particolar is **HEX #A8C082** (RGB	168, 192, 130). 
 
-COLOR IMG 
+Afte testing my deployed website on **Wave**, I realised the color was too light and didn't allow much contrast. To improve accessibility I then changed it to **HEX #627D2B** (RGB 98, 125, 43). This color passed the test on Wave and improved the overall contrast on the site.
+
+The navbar and header are styled accordingly, as well as all the buttons. 
+
+![wave-image](wave-screenshot.webp)
 
 ### Typography
 
-Italiana and Oswald from Google Fonts
-
-IMG here
+Italiana and Oswald from Google Fonts.
 
 ## Wireframes
 The design of this website was first conceived using wireframes in Balsamiq. This helped me follow my original idea throughout the developing process. While some slight differences might be noticed between the wireframes here below and the final product, the basic structure and featured have been kept in mind during the process and are more or less the same as the original idea. 
 
 ### Homepage
-![Wireframe-1](/assets/images/Wireframe-1.png)
+![Wireframe-1](/assets/images/Wireframe-1.webp)
 ### Techniques page
-![Wireframe-2](/assets/images/Wireframe-2.png)
+![Wireframe-2](/assets/images/Wireframe-2.webp)
 ### Benefits page
-![Wireframe-3](/assets/images/Wireframe-3.png)
+![Wireframe-3](/assets/images/Wireframe-3.webp)
 ### Plans page
-![Wireframe-4](/assets/images/Wireframe-4.png)
+![Wireframe-4](/assets/images/Wireframe-4.webp)
 ### Join us (form) page
-![Wireframe-5](/assets/images/Wireframe-5.png)
+![Wireframe-5](/assets/images/Wireframe-5.webp)
 
 ## Accessibility 
 
@@ -126,25 +125,27 @@ HTML and CSS were used to develop this website.
 - Google Fonts - To import fonts
 - Canva - To create the website logo
 - Removebg - to remove images background
+- Pixelied - to convert png/jpg files to webp format
+- Color-hex - to convert hex to rgb 
 
 
 # Testing
 ##  Bugs
 - Benefits page
-![bug-1](/assets/images/Bug-1.png)
+![bug-1](/assets/images/Bug-1.webp)
 How it was fixed:
 The issue here was in the header, since it had no height value and it ended up encroaching the h2. That's why the two overlapped. By targeting the header and adding some volume, I was then able to center the h2 as wished.
 
 - "Join us" remains underlined when not selected (in Plans page)
-![bug-4](/assets/images/bug-4.png)
+![bug-4](/assets/images/bug-4.webp)
 How it was fixed:
 Since the basic html structured was copied from the "Join us" page, I checked the menu bar code first. In effect, class="active" was still within the "Join us" tag instead of the actual page "Plans". Copied and pasted class="active" to "Plans" tag. 
 
 - Text not centered in form
-![bug-2](/assets/images/bug-button.png)
+![bug-2](/assets/images/bug-button.webp)
 How it was fixed:
 Thanks to the Dev Tool I was able to identify the problem in display:block and changed to display:inline.
-![bug-2-fixed](/assets/images/bug-button2.png)
+![bug-2-fixed](/assets/images/bug-button2.webp)
 
 # Deployment
 To deploy the live website GitHub Pages was used.
