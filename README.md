@@ -14,12 +14,12 @@ Link to live website here https://chantald29.github.io/Mindfully-MilestoneProjec
         - [Colour palette](#colour-palette)
         - [Typography](#typography)
     - [Wireframes](#wireframes)
-    - [Accessibility](#accessibility)
  - [Technologies Used](#technologies-used)
 	- [Languages Used](#languages-used)
 	- [Programs and Websites Used](#programs-and-websites-used)
  - [Testing](#testing)
     - [Bugs](#bugs)
+    - [Known Bugs](#known-bugs)
  - [Deployment](#deployment)
  - [Credits](#credits)
 	 - [Content](#content)
@@ -28,13 +28,13 @@ Link to live website here https://chantald29.github.io/Mindfully-MilestoneProjec
 	 - [Acknowledgements](#acknowledgements)
 
 # Introduction
-For my first portfolio project I wanted to develop a website where users can find out more about Mindfulness following Project Example Idea 3. The main goal is to inform users about the benefits of Mindfulness are and provide examples of techniques to practice Mindfulness in one's everyday life.  
+For my first portfolio project I wanted to develop a website where users can find out more about Mindfulness (following Project Example Idea 3). The main goal here is to inform users about the benefits of Mindfulness and provide examples of techniques, so to turn Mindfulness into an everyday practice.  
 
 There is also a page where users can sign up and subscribe to the newsletter or decide to subscribe to a premium plan and get access to mindfulness content like guided meditations and other useful tips. 
 
 # Project Overview
 ## Structure
-Mindfully is a 4 page website with each having its own navigation link at the top of the page. The Home page is the default loading page. Users can easily navigate to other pages via the navigation links and buttons.
+Mindfully is a 5 page website where each page has its own navigation link at the top of the page. The Home page is the default loading page. Users can easily navigate to other pages via the navigation links and buttons. A thank you page is also displayed once the user click on "Join" in the signup page, and it redirects to the homepage within 10 seconds. 
 
 
 ## Existing Features
@@ -50,14 +50,15 @@ Provides examples of the main techniques used to live a mindful lifestyle. The i
 - **Benefits page**:
 Provides information about the main benefits of mindfulness.
 - **Signup (form)**:
-Here the user can sign up and will receive a thank you message.
+Here the user can sign up and will receive a thank you message that redirects to the homepage 10 seconds after. 
 - **Plans page**:
 Here the user can find the available premium plans offered by Mindfully, as well as a prompt to start the free trial. 
 
 ## Future Implementations
-- Add a new page for a test/challenge (as a form, with radios or checkboxes) to spark curiosity in the users and invite them to integrate mindfulness tips in their lifestyle.
-- Create a page for each technique and link it them to each technique image in the gallery. I would also add a dropdown menu for the technique page listing all techniques so that users can learn more about each technique.
-- Create another page for virtual events and meetups. 
+- Add a new page for a *challenge*, or a *test* (as a form, with radios or checkboxes) to spark curiosity in the users and invite them to integrate mindfulness tips in their lifestyle.
+- Create a page for each technique and link it them to each technique image in the gallery. I would also add a *dropdown menu* for the technique page listing all techniques so that users can easily navigate the techniques section.
+- Create another page for *virtual events and meetups*. 
+- Improve the overall *responsiveness* design on small screens, especially for the signup and plans pages (see section [Known Bugs](#known-bugs) )
 
 
 # User Experience (UX)
@@ -90,7 +91,7 @@ As a developer, I want the site to:
 When I started thinking about the design of the website, I pictured it would have some green in it as this colour conveys peace and calm. I later read by chance that some psychological studies have proved green to be soothing, with antidepressant properties: my choice was made. I chose images with warm colors to match the calming mood of the website.
 The shade of green chosen in particolar is **HEX #A8C082** (RGB	168, 192, 130). 
 
-Afte testing my deployed website on **Wave**, I realised the color was too light and didn't allow much contrast. To improve accessibility I then changed it to **HEX #627D2B** (RGB 98, 125, 43). This color passed the test on Wave and improved the overall contrast on the site. By doing that the accessibility score on lighthouse also improved (86 > 98).
+Afte testing my deployed website on **Wave**, I realised the color was too light and didn't allow much contrast. To improve accessibility I then changed it to **HEX #627D2B** (RGB 98, 125, 43). This color passed the test on Wave and improved the overall contrast on the site. By doing so the **accessibility** score on lighthouse also improved (86 > 98).
 
 ![wave-image](wave-screenshot.webp)
 
@@ -112,12 +113,9 @@ The design of this website was first conceived using wireframes in Balsamiq. Thi
 ### Join us (form) page
 ![Wireframe-5](/assets/images/Wireframe-5.webp)
 
-## Accessibility 
-
-
 # Technologies Used
 ## Languages Used
-HTML and CSS were used to develop this website.
+HTML and CSS were used to develop this website. In the future Javascript could be used to add interesting features that could make the website more useful and interactive. 
 
 ## Programs and Websites Used
 - Balsamiq - To create wireframes
@@ -136,22 +134,32 @@ HTML and CSS were used to develop this website.
 
 
 # Testing
+The website was tested on all validators, including Wave for accessibility matters and Lighthouse for overall performance. During the firs test it emerged that it would be better to increase accessibility by changing the main color (see [Colour palette](#colour-palette)for more details) and therefore increasing the overall contrast. One other important thing to fix was the overall performance score: this was done by removing all images in png or jpg format and converting them into webp.
+
 ##  Bugs
-- Benefits page
+- Benefits page title (h2) not detaching from header
 ![bug-1](/assets/images/Bug-1.webp)
 How it was fixed:
-The issue here was in the header, since it had no height value and it ended up encroaching the h2. That's why the two overlapped. By targeting the header and adding some volume, I was then able to center the h2 as wished.
+The issue here was in the header. After close observation it merged that the header had no height value, which caused it to encroach onto the h2. That's why the two overlapped. By targeting the header and adding some volume, I was then able to center the h2 as wished, and from there resize the page elements with media queries. 
 
 - "Join us" remains underlined when not selected (in Plans page)
 ![bug-4](/assets/images/bug-4.webp)
 How it was fixed:
-Since the basic html structured was copied from the "Join us" page, I checked the menu bar code first. In effect, class="active" was still within the "Join us" tag instead of the actual page "Plans". Copied and pasted class="active" to "Plans" tag. 
+Since the basic html structured was copied from the "Join us" page, I checked the menu bar code first. In effect, class="active" was still within the "Join us" tag instead of the actual page "Plans". Copied and pasted class="active" to "Plans" tag was a quick fix for this bug. 
 
 - Text not centered in form
 ![bug-2](/assets/images/bug-button.webp)
 How it was fixed:
 Thanks to the Dev Tool I was able to identify the problem in display:block and changed to display:inline.
 ![bug-2-fixed](/assets/images/bug-button2.webp)
+
+## Known Bugs
+-Page zoomed out or zommed in on small displays (Plans and Signup)
+![bug-viewport3](/assets/images/bug-viewport3.webp)
+When I checked the website on my iPhone (model 14 Pro, editing on DevTool with the iPhone 12 Pro preview) I realised these two pages wren't displayed like the others, but rather zoomed in or zoomed out. The user would then have to resize the page by pinching, which isn’t optimal. The tutor I consulted pointed me in the right direction advising it might be a **viewport** issue. 
+This was fixed by adding a meta tag in the head of those pages with content="initial-scale=0.5".
+This represents a quick solution for the issue, as the page is now completely displayed with no need to zoom and resize it. There is still one bug though, namely the navbar displaying differently if compared to all the other pages across the website (this only happens on screen sizes below 800px). In the future I would like to improve the responsive design on small screens: I tried my best to achieve an acceptable result, however since the deadline approached I realized I couldn’t polish it as wished. 
+
 
 # Deployment
 To deploy the live website GitHub Pages was used.
@@ -165,6 +173,7 @@ The steps are the following:
 
 # Credits
 ## Content
+Texts and content are based on the following reference websites:
 - https://www2.hse.ie/mental-health/self-help/activities/mindfulness/
 - https://www.mindful.org/meditation/mindfulness-getting-started/
 - https://www.mayoclinic.org/healthy-lifestyle/consumer-health/in-depth/mindfulness-exercises/art-20046356
@@ -174,29 +183,28 @@ The steps are the following:
 Images and videos taken from pexel free for usage with no copyright. I would like to acknowledge the following creators for releasing amazing free content that matched perfectly my website’s idea.
 - https://www.pexels.com/video/woman-doing-yoga-over-a-rock-7580229/
 - https://www.pexels.com/photo/faceless-woman-reading-book-on-comfortable-bed-at-home-6588939/
-- https://www.pexels.com/photo/woman-standing-on-cliff-287240/ 
-- https://www.pexels.com/photo/woman-relaxing-in-yoga-mat-3822647/
-- https://www.pexels.com/photo/photo-of-person-holding-cup-3363111/
 - https://www.pexels.com/photo/reflective-woman-meditating-in-lotus-pose-with-namaste-hands-4793357/
 - https://www.pexels.com/photo/woman-and-dog-walking-at-woods-1612847/
 - https://www.pexels.com/photo/photo-of-woman-laying-on-ground-3759659/
 - https://www.pexels.com/photo/smiling-ethnic-gardener-with-plant-on-sunny-day-6231870/
 - https://www.pexels.com/photo/flexible-sportswoman-doing-yoga-exercise-at-home-4498158/
 - https://www.pexels.com/photo/bed-of-white-petaled-flower-605494/
-- https://www.pexels.com/photo/faceless-woman-reading-book-on-comfortable-bed-at-home-6588939/
-- https://www.pexels.com/photo/unrecognizable-female-meditating-on-grass-in-highlands-on-sunny-day-5694121/
 - https://www.pexels.com/photo/photo-of-an-elderly-woman-meditating-8939951/
 
 ## Reference Material
 - w3schools https://www.w3schools.com/tags/tag_span.asp 
 - GitHub Docs https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
-- https://www.youtube.com/watch?v=CEjaKXYeaJU
+- Plans page cards https://www.youtube.com/watch?v=Oa9LTDR9ugU&t=456s 
+- Expanding gallery https://www.youtube.com/watch?v=ly4Dqz2Mz8s
+- Tips for responsive design https://www.youtube.com/watch?v=VQraviuwbzU&t=568s 
 
 ### Readme file
 Kera-cudmore/readme-examples https://github.com/kera-cudmore/readme-examples and video from Code Institue https://www.youtube.com/watch?v=XbYJ4VlhSnY&t=1639s 
+- GitHub Docs https://docs.github.com/en 
 - https://www.youtube.com/watch?v=E6NO0rgFub4 
 - https://www.youtube.com/watch?v=Ljj1wGFJqPY 
 - https://www.youtube.com/watch?v=XbYJ4VlhSnY 
+- https://www.youtube.com/watch?v=CEjaKXYeaJU
 
 ## Acknowledgements
-I would like to acknowledge and thank my mentor Graeme Taylor for his support and guidance from the beginning of the course and for his precious advices for my project. I would also like to thank the tutors at the Code Institute for providing specific tips to fix bugs when needed, thanks to Joshua and Joanne fo that. 
+I would like to acknowledge my mentor Graeme Taylor for his support and guidance from the beginning of the course and for his precious advices for my project. Thank you for always pointing me in the right direction. I would also like to thank the tutors at the Code Institute for their great help: they provided tips and explanations that helped me figure out a solution to fix the bugs I had. Thanks to Joshua and Joanne fo that. 
