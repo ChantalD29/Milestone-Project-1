@@ -813,7 +813,7 @@ margin-top: 45px;
     }
 
     footer > h2{
-        margin-left: 0
+        margin-top: 300px
     }
 
     .cards-text {
@@ -868,11 +868,12 @@ margin-top: 45px;
     /*form background*/
     .form-section {
         width: 800px;
-        height: 800px;
+        height: 1200px;
+        margin-top: 200px;
     }
 
     .signup-form {
-        left:20%;
+        left:25%;
     }
 
     .form-section{
