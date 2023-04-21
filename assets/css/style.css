@@ -21,9 +21,14 @@ h1, h2 {
     color: #627D2B;
 }
 
-h1 {
+h3 {
+    font-family: Italiana, sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 10px;
+    color: #627D2B;
     margin-left: 250px;
 }
+
 #logo {
     float: left;
     font-size: 380%;
