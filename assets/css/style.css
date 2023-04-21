@@ -29,9 +29,14 @@ h3 {
     margin-left: 250px;
 }
 
-#logo {
+#logo-text {
     float: left;
     font-size: 380%;
+}
+
+#logo {
+    float: left;
+    max-width: 400px;
 }
 
 /* navigation links */
@@ -778,7 +783,12 @@ margin-top: 45px;
     .card {
         width: 250px;
         height: 200px;
+    }
 
+    /*form background*/
+    .form-section{
+        max-width: 950px;
+    }
 }
 
 /* For small screen sizes below 800px width */
@@ -805,7 +815,6 @@ margin-top: 45px;
         left:20%;
     }
 
-    /*form background*/
     .form-section{
         max-width: 800px;
     }
