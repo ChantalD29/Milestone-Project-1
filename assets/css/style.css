@@ -754,7 +754,14 @@ margin-top: 45px;
         margin-bottom: 20px;
         line-height: 25px;
     }
-    
+    .content-section .title {
+        margin-left: -200px;
+    }
+
+    .content {
+        margin-left: 0;
+    }
+
     .gallery {
         max-width: 80%;
     }
