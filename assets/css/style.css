@@ -96,7 +96,7 @@ header #logo {
     padding-top: 25px;
     padding-left: 45px;
     padding-right: 30px;
-    background-color: rgba(168, 192, 130, .9);
+    background-color: rgba(98, 125, 43, .7);
     bottom: -230px;
     right: 100px;
     position: absolute;
@@ -193,7 +193,7 @@ header #logo {
 /* pillars */
 
 #pillars {
-    background-image: url(../images/pexels-jackson-jorvan-605494.jpg);
+    background-image: url(../images/pexels-jackson-jorvan-605494.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -203,7 +203,7 @@ header #logo {
 
 #pillars div {
     color: #fff;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(98, 125, 43, 0.4);
     width: 20%;
     height: 300px;
     float: left;
@@ -320,7 +320,7 @@ hr {
 }
 
 #circle-cover-bg {
-    background: url(../images/Benefits-image.jpg) no-repeat center center;
+    background: url(../images/Benefits-image.webp) no-repeat center center;
     height: 100%;
     border-radius: 50%;
     background-size: cover;
@@ -343,12 +343,13 @@ hr {
     justify-content: center;
 }
 
+/* images for gallery*/
 .img-box {
     width: 150px;
     height: 500px;
     margin: 10px;
     border-radius: 50px;
-    background: url(../images/breathe-image.jpg);
+    background: url(../images/breathe-image.webp);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -356,31 +357,31 @@ hr {
 }
 
 .img-box:nth-child(2) {
-    background-image: url(../images/muscle-relaxation-image.jpg);
+    background-image: url(../images/muscle-relaxation-image.webp);
     background-size: cover;
     background-position: center;
 }
 
 .img-box:nth-child(3) {
-    background-image: url(../images/walk-image.jpg);
+    background-image: url(../images/walk-image.webp);
     background-size: cover;
     background-position: center;
 }
 
 .img-box:nth-child(4) {
-    background-image: url(../images/journal-image.jpg);
+    background-image: url(../images/journal-image.webp);
     background-size: cover;
     background-position: center;
 }
 
 .img-box:nth-child(5) {
-    background-image: url(../images/relax-image.jpg);
+    background-image: url(../images/relax-image.webp);
     background-size: cover;
     background-position: center;
 }
 
 .img-box:nth-child(6) {
-    background-image: url(../images/meditation-image.jpg);
+    background-image: url(../images/meditation-image.webp);
     background-size: cover;
     background-position: center;
 }
@@ -403,7 +404,7 @@ hr {
 .img-box:hover h3 {
     opacity: 1;
     bottom: 25px;
-    background-color: rgba(168, 192, 130, .9);
+    background-color: rgba(98, 125, 43, .9);
     border-radius: 30px;
     padding: 15px;
 
@@ -429,7 +430,7 @@ margin-top: 45px;
 
 .form-section{
     clear: both;
-    background-image: url(../images/pexels-jackson-jorvan-605494.jpg);
+    background-image: url(../images/pexels-jackson-jorvan-605494.webp);
     background-size: cover;
     background-position: center;
     height: 900px;
@@ -438,7 +439,7 @@ margin-top: 45px;
 .signup-form {
     margin: 150px 0 0 0;
     color: #fff;
-    background-color: rgba(168, 192, 130, 0.6);
+    background-color: rgba(98, 125, 43, 0.8);
     max-width: 400px;
     position: absolute;
     left: 35%;
@@ -524,19 +525,19 @@ margin-top: 45px;
 }
 
 .card1 {
-    background-image: url(../images/Membership-1.png)
+    background-image: url(../images/Membership1.webp)
 }
 
 .card2 {
-    background-image: url(../images/Membership-2.png)
+    background-image: url(../images/Membership2.webp)
 }
 
 .card3 {
-    background-image: url(../images/Membership-3.png)
+    background-image: url(../images/Membership3.webp)
 }
 
 .card4 {
-    background-image: url(../images/Membership-4.png)
+    background-image: url(../images/Membership4.webp)
 }
 
 .card:hover {
@@ -569,7 +570,7 @@ margin-top: 45px;
 
 .thank-you {
     clear: both;
-    background-image: url(../images/pexels-jackson-jorvan-605494.jpg);
+    background-image: url(../images/pexels-jackson-jorvan-605494.webp);
     background-size: cover;
     background-position: center;
     height: 900px;

@@ -1,4 +1,4 @@
-![Alt text](/assets/images/Mindfully%20and%20logo.png)
+![Alt text](/assets/images/logo-and-text.webp)
 
 Link to live website here https://chantald29.github.io/Mindfully-MilestoneProject-1/index.html
 
