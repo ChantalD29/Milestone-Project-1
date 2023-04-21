@@ -660,7 +660,7 @@ margin-top: 45px;
 
     .content-section .content .button {
         display: revert;
-        margin-left:0;
+        margin-left:-0;
     }
 
     
@@ -785,6 +785,13 @@ margin-top: 45px;
         width: inherit;
     }
 
+    .right-about-heading >ul.no-bullets {
+        float: right;
+        list-style-type: none; /* Remove bullets */
+        padding: 0; /* Remove padding */
+        margin: 0; /* Remove margins */
+      }
+
     .left-about-heading h2, .right-about-heading h2 {
         width: 100%;
         text-align: center;
@@ -811,6 +818,7 @@ margin-top: 45px;
     /*form background*/
     .form-section{
         max-width: 950px;
+        background-size: 950px norepeat norepeat;
     }
 }
 
@@ -831,10 +839,6 @@ margin-top: 45px;
         font-size: 120%;
     } 
 
-    #logo-text {
-        font-size: 80%;
-    }
-
     #photos {
         column-count: 2;
     }
@@ -842,6 +846,11 @@ margin-top: 45px;
     .cards-text {
         margin-left: 180px;
         }
+
+    #circle-container {
+        width: 200px;
+        height: 200px;
+    }
 
     .form-section {
         width: 1200px;
@@ -854,5 +863,6 @@ margin-top: 45px;
 
     .form-section{
         max-width: 800px;
+        background-size: 800px norepeat norepeat;
     }
 }
