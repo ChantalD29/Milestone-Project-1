@@ -10,7 +10,7 @@ Link to live website here https://chantald29.github.io/Mindfully-MilestoneProjec
     - [Future Implementations](#future-implementations)
 - [User Experience (UX)](#user-experience-ux)
     - [User Stories](#user-stories)
-    -[Design](#design)
+    - [Design](#design)
         - [Colour palette](#colour-palette)
         - [Typography](#typography)
     - [Wireframes](#wireframes)
@@ -18,7 +18,7 @@ Link to live website here https://chantald29.github.io/Mindfully-MilestoneProjec
 	- [Languages Used](#languages-used)
 	- [Programs and Websites Used](#programs-and-websites-used)
  - [Testing](#testing)
-    - [Bugs](#bugs)
+    - [Fixed Bugs](#fixed-bugs)
     - [Known Bugs](#known-bugs)
  - [Deployment](#deployment)
  - [Credits](#credits)
@@ -136,7 +136,7 @@ HTML and CSS were used to develop this website. In the future Javascript could b
 # Testing
 The website was tested on all validators, including Wave for accessibility matters and Lighthouse for overall performance. During the firs test it emerged that it would be better to increase accessibility by changing the main color (see [Colour palette](#colour-palette)for more details) and therefore increasing the overall contrast. One other important thing to fix was the overall performance score: this was done by removing all images in png or jpg format and converting them into webp.
 
-##  Bugs
+## Fixed Bugs
 - Benefits page title (h2) not detaching from header
 ![bug-1](/assets/images/Bug-1.webp)
 How it was fixed:
@@ -155,10 +155,12 @@ Thanks to the Dev Tool I was able to identify the problem in display:block and c
 
 ## Known Bugs
 -Page zoomed out or zommed in on small displays (Plans and Signup)
-![bug-viewport3](/assets/images/bug-viewport3.webp)
+![bug-viewport-iphone](/assets/images/bug-viewport-iphone.webp)
 When I checked the website on my iPhone (model 14 Pro, editing on DevTool with the iPhone 12 Pro preview) I realised these two pages wren't displayed like the others, but rather zoomed in or zoomed out. The user would then have to resize the page by pinching, which isn’t optimal. The tutor I consulted pointed me in the right direction advising it might be a **viewport** issue. 
 This was fixed by adding a meta tag in the head of those pages with content="initial-scale=0.5".
 This represents a quick solution for the issue, as the page is now completely displayed with no need to zoom and resize it. There is still one bug though, namely the navbar displaying differently if compared to all the other pages across the website (this only happens on screen sizes below 800px). In the future I would like to improve the responsive design on small screens: I tried my best to achieve an acceptable result, however since the deadline approached I realized I couldn’t polish it as wished. 
+
+![bug-viewport2](/assets/images/bug-viewport2.webp)
 
 
 # Deployment
@@ -197,6 +199,7 @@ Images and videos taken from pexel free for usage with no copyright. I would lik
 - Plans page cards https://www.youtube.com/watch?v=Oa9LTDR9ugU&t=456s 
 - Expanding gallery https://www.youtube.com/watch?v=ly4Dqz2Mz8s
 - Tips for responsive design https://www.youtube.com/watch?v=VQraviuwbzU&t=568s 
+- Walkthrough "Love Running" by Code Academy (especially for the header, footer, right-bout, left-about and center-about parts)
 
 ### Readme file
 Kera-cudmore/readme-examples https://github.com/kera-cudmore/readme-examples and video from Code Institue https://www.youtube.com/watch?v=XbYJ4VlhSnY&t=1639s 
