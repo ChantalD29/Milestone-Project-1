@@ -82,9 +82,7 @@ As a developer, I want the site to:
 When I started thinking about the design of the website, I pictured it would have some green in it as this colour conveys peace and calm. I later read by chance that some psychological studies have proved green to be soothing, with antidepressant properties: my choice was made. I chose images with warm colors to match the calming mood of the website.
 The shade of green chosen in particolar is **HEX #A8C082** (RGB	168, 192, 130). 
 
-Afte testing my deployed website on **Wave**, I realised the color was too light and didn't allow much contrast. To improve accessibility I then changed it to **HEX #627D2B** (RGB 98, 125, 43). This color passed the test on Wave and improved the overall contrast on the site.
-
-The navbar and header are styled accordingly, as well as all the buttons. 
+Afte testing my deployed website on **Wave**, I realised the color was too light and didn't allow much contrast. To improve accessibility I then changed it to **HEX #627D2B** (RGB 98, 125, 43). This color passed the test on Wave and improved the overall contrast on the site. By doing that the accessibility score on lighthouse also improved (86 > 98).
 
 ![wave-image](wave-screenshot.webp)
 
@@ -193,4 +191,4 @@ Kera-cudmore/readme-examples https://github.com/kera-cudmore/readme-examples and
 - https://www.youtube.com/watch?v=XbYJ4VlhSnY 
 
 ## Acknowledgements
-I would like to acknowledge and thank my mentor for his support and guidance from the beginning of the course and for his precious advices for my project. I would also like to thank the tutors at Code Institute for providing specific tips to fix bugs when needed. 
+I would like to acknowledge and thank my mentor Graeme Taylor for his support and guidance from the beginning of the course and for his precious advices for my project. I would also like to thank the tutors at Code Institute for providing specific tips to fix bugs when needed. 
