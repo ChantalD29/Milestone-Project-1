@@ -402,6 +402,7 @@ hr {
     left: 30px;
     opacity: 0;
     transition: bottom 0.5s, opacity 0.5s;
+    margin-left: 0;
 }
 
 .img-box:hover {
