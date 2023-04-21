@@ -38,13 +38,21 @@ Mindfully is a 4 page website with each having its own navigation link at the to
 
 
 ## Existing Features
-- Header
-- Introduction section
-- Pillars section
-- Techniques page
-- Benefits page
-- Signup (form)
-- Plans page
+- **Header**:
+The header displays the logo (originally designed in Canva) and the menu bar. The different pages can be easily access from there or from the buttons below the introduction in the homepage.
+- **Homepage**:
+    - Introduction section
+    Provides a general description of what mindfulness is.
+    - Pillars section
+    Some important advices and pillars of mindfulness are provided in this section.
+- **Techniques page**:
+Provides examples of the main techniques used to live a mindful lifestyle. The images, if clicked, are linked to their indivual description.
+- **Benefits page**:
+Provides information about the main benefits of mindfulness.
+- **Signup (form)**:
+Here the user can sign up and will receive a thank you message.
+- **Plans page**:
+Here the user can find the available premium plans offered by Mindfully, as well as a prompt to start the free trial. 
 
 ## Future Implementations
 - Add a new page for a test/challenge (as a form, with radios or checkboxes) to spark curiosity in the users and invite them to integrate mindfulness tips in their lifestyle.
