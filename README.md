@@ -157,6 +157,7 @@ Thanks to the Dev Tool I was able to identify the problem in display:block and c
 ## Known Bugs
 -Page zoomed out or zommed in on small displays (Plans and Signup)
 ![bug-viewport-iphone](/assets/images/bug-viewport-iphone.webp)
+
 When I checked the website on my iPhone (model 14 Pro, editing on DevTool with the iPhone 12 Pro preview) I realised these two pages wren't displayed like the others, but rather zoomed in or zoomed out. The user would then have to resize the page by pinching, which isn’t optimal. The tutor I consulted pointed me in the right direction advising it might be a **viewport** issue. 
 This was fixed by adding a meta tag in the head of those pages with content="initial-scale=0.5".
 
@@ -164,6 +165,7 @@ This represented a quick solution for the above mentioned issue, as the page is 
 For this issue I consulted these pages: 
 - https://stackoverflow.com/questions/31877286/webpage-is-not-resizing-to-fit-the-screen-on-iphone-6-plus
 - https://developer.apple.com/library/archive/documentation/AppleApplications/Reference/SafariWebContent/UsingtheViewport/UsingtheViewport.html
+
 ![bug-viewport2](/assets/images/bug-viewport2.webp)
 
 
