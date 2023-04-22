@@ -890,16 +890,12 @@ margin-top: 45px;
         width: 800px;
         height: 1200px;
         margin-top: 200px;
+        background-repeat:no-repeat;
+        background-size: 1800px;
     }
 
     .signup-form {
         left:28%;
-    }
-
-    .form-section{
-        max-width: 800px;
-        background-size: 800px;
-        background-repeat: no-repeat;
     }
 
     /*thank you page*/
