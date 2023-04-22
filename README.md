@@ -160,7 +160,9 @@ When I checked the website on my iPhone (model 14 Pro, editing on DevTool with t
 This was fixed by adding a meta tag in the head of those pages with content="initial-scale=0.5".
 
 This represented a quick solution for the above mentioned issue, as the page is now completely displayed with no need to zoom and resize it. However, there is still one bug, namely the menu bar displayed differently (smaller) when compared to all the other pages across the website (this only happens on screen sizes below 950px). In the future I would like to improve the responsive design on small screens: I tried my best to achieve an acceptable result, however since the deadline approached I realized I couldn’t polish it as wished. 
-
+For this issue I consulted these pages: 
+- https://stackoverflow.com/questions/31877286/webpage-is-not-resizing-to-fit-the-screen-on-iphone-6-plus
+- https://developer.apple.com/library/archive/documentation/AppleApplications/Reference/SafariWebContent/UsingtheViewport/UsingtheViewport.html
 ![bug-viewport2](/assets/images/bug-viewport2.webp)
 
 
