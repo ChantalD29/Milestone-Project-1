@@ -134,7 +134,8 @@ HTML and CSS were used to develop this website. In the future Javascript could b
 
 
 # Testing
-The website was tested on all validators, including Wave for accessibility matters and Lighthouse for overall performance. During the firs test it emerged that it would be better to increase accessibility by changing the main color (see [Colour palette](#colour-palette)for more details) and therefore increasing the overall contrast. One other important thing to fix was the overall performance score: this was done by removing all images in png or jpg format and converting them into webp.
+The website was tested on all validators, including Wave for accessibility matters and Lighthouse for overall performance. Both css and html pages passed the validatore with no errors on [validator.w3](https://validator.w3.org/nu/) During the firs test it emerged that it would be better to increase accessibility by changing the main color (see [Colour palette](#colour-palette)for more details) and therefore increasing the overall contrast. One other important thing to fix was the overall performance score: this was done by removing all images in png or jpg format and converting them into webp.
+![validator](/assets/images/validator.webp)
 
 ## Fixed Bugs
 - Benefits page title (h2) not detaching from header
