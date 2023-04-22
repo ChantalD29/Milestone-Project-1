@@ -201,7 +201,8 @@ Images and videos taken from pexel free for usage with no copyright. I would lik
 
 ## Reference Material
 - w3schools https://www.w3schools.com/tags/tag_span.asp 
-- GitHub Docs https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+- Stackoverflow https://stackoverflow.com/
+- GitHub Docs https://docs.github.com/en 
 - Plans page cards https://www.youtube.com/watch?v=Oa9LTDR9ugU&t=456s 
 - Expanding gallery https://www.youtube.com/watch?v=ly4Dqz2Mz8s
 - Tips for responsive design https://www.youtube.com/watch?v=VQraviuwbzU&t=568s 
@@ -209,7 +210,7 @@ Images and videos taken from pexel free for usage with no copyright. I would lik
 
 ### Readme file
 Kera-cudmore/readme-examples https://github.com/kera-cudmore/readme-examples and video from Code Institue https://www.youtube.com/watch?v=XbYJ4VlhSnY&t=1639s 
-- GitHub Docs https://docs.github.com/en 
+- GitHub Docs https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
 - https://www.youtube.com/watch?v=E6NO0rgFub4 
 - https://www.youtube.com/watch?v=Ljj1wGFJqPY 
 - https://www.youtube.com/watch?v=XbYJ4VlhSnY 
